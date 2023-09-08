@@ -49,8 +49,6 @@ class PassportAuthController extends Controller
         }else{
             return response()->json(['error' => 'Credenciales erroneas']);
         }
-
-
     }
 
     Public Function logout(){
